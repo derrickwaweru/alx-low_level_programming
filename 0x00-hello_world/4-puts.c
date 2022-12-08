@@ -4,7 +4,7 @@
  * main - entry point
  * description - a simple puts program
  * this ithe main function
- * return  - (0)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
