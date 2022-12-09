@@ -32,7 +32,7 @@ int main(void)
 				{
 					printf("%d and is 0\n", n);
 				}
-				if (6<n!=0)
+				if (n < 6 && n!=0)
 				{
 					printf("%d and is less than 6 and is not 0\n", n);
 				}
