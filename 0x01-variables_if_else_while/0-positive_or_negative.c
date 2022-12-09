@@ -10,7 +10,7 @@
 /**
  * main - program entry
  * Description: This is a program to print positives and negatives
- * Return: Always 0 (Success) 
+ * Return: Always 0 (Success)
  */
 
 int main(void)
