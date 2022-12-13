@@ -34,7 +34,7 @@ int main(void)
 		{
 		printf(" and is 0 \n");
 		{
-		if (x < 6 && x ! = 0)
+		if (x < 6 && x != 0)
 		{
 		printf(" and is less than 6 and is not 0 \n");
 		}
