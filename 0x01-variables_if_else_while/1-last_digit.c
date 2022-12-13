@@ -16,25 +16,27 @@ int main(void)
 {
 
 		int n;
-
+		int x;
 
 
 			srand(time(0));
 
 				n = rand() - RAND_MAX / 2;
+				x = n % 10;
 
 					/* your code goes there */
-				if (n > 5)
+				printf("Last digit of %d is %d", n, x);
+				if (x > 5)
 				{
-					printf("Last digit of %d is %s and is greater than 5\n", n);
+					printf(" and is greater than 5\n");
 				}
-				if (n == 0)
+				if (x == 0)
 				{
-					printf("Last digit of %d is %s and is 0\n", n);
+					printf("%d and is 0\n");
 				}
-				if (n < 6 && n!=0)
+				if (x < 6 && x!=0)
 				{
-					printf("Last digit of %d is %s and is less than 6 and is not 0\n", n);
+					printf("%d and is less than 6 and is not 0\n");
 				}
 
 					return (0);
