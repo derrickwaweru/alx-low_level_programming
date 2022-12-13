@@ -9,7 +9,8 @@
 /**
  * main - entry point
  * Description: a program to print random numbers
- * Return: Always 0 (Success)*/
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 
@@ -23,7 +24,6 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	x = n % 10;
 
-	/* your code goes there */
 	printf("Last digit of %d is %d", n, x);
 	if (x > 5)
 	{
