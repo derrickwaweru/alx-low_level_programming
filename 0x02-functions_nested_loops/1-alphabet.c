@@ -2,7 +2,7 @@
 
 /**
  * main - function prints alphabet in small letters
- * Return:the alphabet in small case:
+ * print_alphabet- prints the alphabet in lowercase then a new line
  */
 
 void print_alphabet(void)
