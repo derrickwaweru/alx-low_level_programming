@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * _strlen - print length of string
  * main - function to print the length of a string
  *Description: a function to print the length of a string
  *@s: character to be checked
